@@ -25,6 +25,6 @@ public class CepController {
         String city = data.getLocalidade();
         String state = data.getUf();
 
-        return  city + ", " + state;
+        return city + ", " + state;
     }
 }
